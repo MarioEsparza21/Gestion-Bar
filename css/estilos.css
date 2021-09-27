@@ -1,0 +1,20 @@
+h2 {
+text-align: center;
+color: blue;
+font: italic large "Times New Roman", serif;
+font-size: 25px;
+}
+
+h1 {
+text-align: center;
+color: green;
+font: italic large "Times New Roman", serif;
+font-size: 5em;
+}
+
+#logo {
+
+}
+
+
+.textoresaltado{}
