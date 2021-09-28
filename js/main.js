@@ -1,7 +1,3 @@
 function welcome(){
-    alert("Bienvenido");
-}
-
-function dadoclick(){
-    alert("Comienza a editar");
+    alert("Bienvenidos comiencen a editar");
 }
