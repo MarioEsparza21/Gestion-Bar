@@ -1,0 +1,34 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="images/favicon.ico" rel="icon">
+	<title>Registro Cliente</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/registro.css">
+</head>
+<body>
+	<form class="form-register" action="${pageContext.request.contextPath}/ClienteServlet?action=/insert" method="post">
+		    <h2>FORMULARIO DE REGISTRO</h2>
+		    
+		    <input class="controls" type="text" name="nombre" id="nombre" placeholder=" Nombre" >
+		    <input class="controls" type="text" name="apellido" id="apellido" placeholder=" Apellido" > 
+		    <input class="controls" type="text" name="cedula" id="cedula" placeholder="Cedula" >
+		    <input class="controls" type="text" name="direccion" id="direccion" placeholder="Direccion" >
+		    <input class="controls" type="text" name="telefono" id="telefono" placeholder="Telefono" >
+		    <input class="controls" type="email" name="email" id="email" placeholder="Email">
+		    <input class="controls" type="password" name="clave" id="clave" placeholder="Password" >
+		    <p> <b>Estoy de acuerdo con</b> <a href="#">Terminos y Condiciones</a></p>
+		    <input class="botons" type="submit" value="Registrar">
+		    <p><a href="loginC.jsp">¿Ya tengo Cuenta?</a></p> 
+		    <p><a href="opciones.jsp">Regresar</a></p>
+	  </form>
+	  
+	  <br><br>
+		<script src="js/jquery.js"></script>
+		<script src="js/main.js"></script>
+		<script src="sjs/bootstrap.min.js"></script>
+</body>
+</html>
