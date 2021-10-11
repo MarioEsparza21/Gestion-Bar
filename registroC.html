@@ -7,7 +7,7 @@
 	<link href="images/favicon.ico" rel="icon">
 	<title>Registro Cliente</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/registro.css">
+	<link rel="stylesheet" href="css/loginregistro.css">
 </head>
 <body>
 	<form class="form-register" action="${pageContext.request.contextPath}/ClienteServlet?action=/insert" method="post">
@@ -20,13 +20,9 @@
 		    <input class="controls" type="number" name="telefono" id="telefono" placeholder="Telefono" >
 		    <input class="controls" type="email" name="email" id="email" placeholder="Email">
 		    <input class="controls" type="password" name="clave" id="clave" placeholder="Contraseña" >
-		<br>
 		    <p>Estoy de acuerdo con <b><a href="#"> Terminos y Condiciones</a></b></p>
-		<br>
 		    <input class="botons" type="submit" value="Registrar">
-		<br>
-		    <p><a href="login.html">¿Aún no te has registrado?</a></p> 
-		<br><br><br>
+		    <p><a href="login.html">¿Ya tienes Cuenta?</a></p> 
 		    <a href="index.html" class="botons" role="button">Regresar</a>
 	  </form>
 	  

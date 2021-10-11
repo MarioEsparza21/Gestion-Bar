@@ -6,14 +6,13 @@
 	<link href="images/favicon.ico" rel="icon">
 	<title>Login Cliente</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/registro.css">
-	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="css/loginregistro.css">
 </head>
 <body>
 	<form class="form-register" action="${pageContext.request.contextPath}/ClienteServlet?action=/insert" method="post">
 		    <h2><b>INICIAR SESIÓN</b></h2>
 			<br>
-			<div style="align-items:center;">
+			<div class="login100-pic">
 				<img src="images/about-image.jpg" alt="IMG">
 			</div>
 			<br>
@@ -22,9 +21,7 @@
 		    <input class="controls" type="password" name="clave" id="clave" placeholder="Contraseña" >
 
 		    <input class="botons" type="submit" value="Iniciar sesión">
-		<br>
 		    <p><a href="registroC.html">¿Ya tienes Cuenta?</a></p> 
-		<br><br><br>
 		    <a href="index.html" class="botons" role="button">Regresar</a>
 	  </form>
 	  
