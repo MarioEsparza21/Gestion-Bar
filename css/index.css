@@ -152,6 +152,17 @@ http://www.templatemo.com/tm-515-eatery
     transition: 0.5s 0.2s;
   }
 
+  .section-btn-pedido {
+    background: #ce3232;
+    border-radius: 0;
+    border: 0;
+    color: #f9f9f9;
+    font-size: inherit;
+    font-weight: normal;
+    padding: 30px 300px;
+    transition: 0.5s 0.2s;
+  }
+
 
 
   /*---------------------------------------
@@ -463,7 +474,7 @@ http://www.templatemo.com/tm-515-eatery
   -----------------------------------------*/
 
   #team {
-    background: #f9f9f9;
+    background:transparent;
   }
 
   .team-thumb {
