@@ -1,0 +1,51 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reserva</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/registro.css">
+</head>
+<body>
+	<form class="form-register" method="post">
+		<h4>FORMULARIO DE RESERVA</h4>
+		<label for="start">A nombre de:</label> <input class="controls"
+			type="text" name="nombre" id="nombre" placeholder="Nombre">
+
+		<label for="start">Fecha de reserva:</label> <input class="controls"
+			type="date" name="fechaNacimiento" id="fechaNacimiento"> <label
+			for="start">Hora de reserva:</label> <br> <input
+			class="controls" type="time" name="hora" value="05:00:00" step="1">
+
+		<div>
+			<label for="inputState">Selecciona </label> 
+			<select id="inputState"
+				class="controls">
+				<option selected class="controls">Mesa 1</option>
+				<option>Mesa 2</option>
+				<option>Mesa 3</option>
+				<option>Mesa 4</option>
+				<option>Mesa 5</option>
+				<option>Mesa 6</option>
+				<option>Mesa 7</option>
+				<option>Mesa 8</option>
+				<option>Mesa 9</option>
+				<option>Mesa 10</option>
+			</select>
+		</div>
+
+		<input class="botons" type="submit" value="Enviar"> 
+		<a href="IndexCliente.html"  type="sublit"> <input class="botons" type="button" value="Cancelar" ></a>
+	</form>
+	
+	 <br><br>
+	 
+	<script src="js/jquery.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
